@@ -1,4 +1,3 @@
-import React from 'react'
 import ProjectCard from './ProjectCard';
 
 const works = [
@@ -6,7 +5,7 @@ const works = [
       imgSrc: '/images/project.png',
       title: 'Ruma furniture app',
       tags: ['React JS',' Tailwind CSS', 'Daisy UI', 'API'],
-      projectLink: 'https://ruma-72nht9xim-rivas-projects.vercel.app'
+      projectLink: 'https://ruma-property.netlify.app/'
     },
     {
       imgSrc: '/images/project2.png',
@@ -16,7 +15,7 @@ const works = [
     },
     {
       imgSrc: '/images/project-3.svg',
-      title: 'Open API Neo Bank Commerce (MSIB 6)',
+      title: 'Open API Neo Bank Commerce (still in progress)',
       tags: ['Next JS', 'Ant Design', 'API'],
       // projectLink: ''
     },
