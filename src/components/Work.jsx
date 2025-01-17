@@ -15,7 +15,8 @@ const works = [
     },
     {
       imgSrc: '/images/project-3.svg',
-      title: 'Open API Neo Bank Commerce (still in progress)',
+      title: 'Open API Neo Bank Commerce ',
+      status: 'not available',
       tags: ['Next JS', 'Ant Design', 'API'],
       // projectLink: ''
     },
@@ -41,8 +42,8 @@ const Work = () => {
         <h2 className="headline-2 mb-8">
         My portfolio highlights
         </h2>
-        <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">{works.map(({imgSrc,title,tags,projectLink},key)=>(
-            <ProjectCard key={key} imgSrc={imgSrc} title={title} tags={tags} projectLink={projectLink}/>
+        <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">{works.map(({imgSrc,title,tags,projectLink,status},key)=>(
+            <ProjectCard key={key} imgSrc={imgSrc} title={title} tags={tags} projectLink={projectLink} status={status}/>
         ))}</div>
     </div>
    </section>
