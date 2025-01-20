@@ -16,9 +16,16 @@ const works = [
     {
       imgSrc: '/images/project-3.svg',
       title: 'Open API Neo Bank Commerce ',
-      status: 'not available',
+      status: 'This project is still in progress',
       tags: ['Next JS', 'Ant Design', 'API'],
       // projectLink: ''
+    },
+    {
+      imgSrc: '/images/project444.png',
+      title: 'Jadwalin Monitor TA',
+      tags: ['Laravel', 'PHP', 'Tailwind'],
+      status: "Only available via Telkom University SSO",
+      projectLink: 'https://projects.d3ifcool.org/login'
     },
     {
       imgSrc: '/images/project-5.png',

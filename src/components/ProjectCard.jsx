@@ -1,4 +1,3 @@
-import React from 'react'
 import PropTypes from 'prop-types'
 
 const ProjectCard = ({ imgSrc, title, tags, projectLink, classes, status }) => {
@@ -11,8 +10,8 @@ const ProjectCard = ({ imgSrc, title, tags, projectLink, classes, status }) => {
       <div className="flex items-center justify-between gap-4 ">
         <div>
           <h3 className="title-1 mb-3">{title}</h3>
-          {status == 'not available' && 
-          <p className='text-yellow-300 mb-2'>This project is still in progress </p>
+          {status  && 
+          <p className='text-yellow-300 my-3'>{status} </p>
           }
           <div className="flex flex-wrap items-center gap-2">
             {tags.map((label, key) => (
